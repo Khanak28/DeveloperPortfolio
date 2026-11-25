@@ -1,0 +1,60 @@
+===== HOME DIRECTORY =====
+total 96
+drwxr-x--- 9 khanak_ahuja khanak_ahuja  4096 Nov 25 06:56 .
+drwxr-xr-x 3 root         root          4096 Oct  7 08:24 ..
+-rw------- 1 khanak_ahuja khanak_ahuja 15851 Nov 24 11:30 .bash_history
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja   220 Oct  7 08:24 .bash_logout
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja  3771 Oct  7 08:24 .bashrc
+drwxr-x--- 4 khanak_ahuja khanak_ahuja  4096 Oct  7 08:25 .cache
+drwxr-x--- 4 khanak_ahuja khanak_ahuja  4096 Oct 21 07:39 .config
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja    90 Nov  6 10:46 .gitconfig
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja   310 Nov 24 10:03 .gitingore
+-rw------- 1 khanak_ahuja khanak_ahuja    20 Nov 20 12:23 .lesshst
+drwx------ 3 khanak_ahuja khanak_ahuja  4096 Oct 25 12:20 .local
+-rw-rw-r-- 1 khanak_ahuja khanak_ahuja     0 Nov 25 06:44 .motd_shown
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja   807 Oct  7 08:24 .profile
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja  1933 Nov 13 07:39 .wsl-config
+drwxr-xr-x 8 khanak_ahuja khanak_ahuja  4096 Nov 25 06:57 DeveloperPortfolio
+drwxr-xr-x 7 khanak_ahuja khanak_ahuja  4096 Oct 25 12:51 Downloads
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja   544 Oct 25 13:10 buggy_script.sh
+drwxr-xr-x 2 khanak_ahuja khanak_ahuja  4096 Oct 25 12:47 cse103_backups
+drwxr-xr-x 4 khanak_ahuja khanak_ahuja  4096 Nov  6 10:49 cse103_lab
+-rwxr-xr-x 1 khanak_ahuja khanak_ahuja   314 Oct 25 13:13 defensive_script.sh
+-rwxr-xr-x 1 khanak_ahuja khanak_ahuja   278 Oct 25 13:12 fixed_script.sh
+-rw-r--r-- 1 khanak_ahuja khanak_ahuja    18 Oct 25 13:14 students.txt
+===== RUNNING PROCESSES =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.4  24164 15608 ?        Ss   06:44   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  06:44   0:00 /init
+root           3  0.0  0.0   3680  2224 hvc0     S+   06:44   0:00 init-watcher
+root           7  0.0  0.0   3820  2292 hvc0     Sl+  06:44   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          50  0.0  0.6  58860 23912 ?        S<s  06:44   0:00 /usr/lib/systemd/systemd-journald
+systemd+      82  0.0  0.3  22448 14424 ?        Ss   06:44   0:00 /usr/lib/systemd/systemd-resolved
+root          88  0.0  0.3  35040 12120 ?        Ss   06:44   0:00 /usr/lib/systemd/systemd-udevd
+root         138  0.0  0.0   2888  2012 ?        Ss   06:44   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         140  0.0  0.0   4472  3164 ?        Ss   06:44   0:00 /usr/sbin/cron -f -P
+===== DISK USAGE =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.8G     0  1.8G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            1.8G  4.0K  1.8G   1% /mnt/wsl
+drivers         476G  184G  292G  39% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            1.8G   36K  1.8G   1% /mnt/wslg
+none            1.8G     0  1.8G   0% /usr/lib/wsl/lib
+rootfs          1.8G  3.4M  1.8G   1% /init
+none            1.8G  512K  1.8G   1% /run
+none            1.8G     0  1.8G   0% /run/lock
+none            1.8G     0  1.8G   0% /run/shm
+none            1.8G   80K  1.8G   1% /mnt/wslg/versions.txt
+none            1.8G   80K  1.8G   1% /mnt/wslg/doc
+C:\             476G  184G  292G  39% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.8G     0  1.8G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           354M   12K  354M   1% /run/user/1000
+===== MEMORY USAGE =====
+               total        used        free      shared  buff/cache   available
+Mem:           3.5Gi       399Mi       3.0Gi       4.1Mi       169Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
