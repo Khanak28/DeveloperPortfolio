@@ -1,25 +1,23 @@
-==========================================
+======================================
        SYSTEM INFORMATION REPORT
-==========================================
-Name: Khanak
-Course: B.Tech CSE (AI & ML)
+======================================
+Name: Khanak Ahuja
 Roll Number: 2601730302
-Date: Wed Nov 25 07:19:59 UTC 2026
+Date: Fri Nov 27 16:04:37 UTC 2026
 
----------- CPU INFORMATION ----------
-CPU Model: AMD Ryzen 3 7320U with Radeon Graphics
+CPU INFORMATION:
+Model name:                              AMD Ryzen 3 7320U with Radeon Graphics
 Number of Cores: 8
 
----------- MEMORY INFORMATION ----------
-Total Memory: 3.5Gi
-Used Memory: 428Mi
+MEMORY INFORMATION:
+Total RAM: 3.5Gi
+Used RAM: 414Mi
 
----------- TOP 3 PROCESSES BY CPU ----------
-USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root        1048  0.0  0.0   3892  1568 ?        S    07:15   0:00 /init
-root           1  0.0  0.4  24324 15616 ?        Ss   06:44   0:01 /sbin/init
-root          88  0.0  0.3  35040 12120 ?        Ss   06:44   0:01 /usr/lib/systemd/systemd-udevd
+TOP 3 PROCESSES BY CPU USAGE:
+    PID COMMAND         %CPU
+   1842 sysinfo.sh       7.1
+   1799 bash             0.0
+   1795 Relay(1799)      0.0
 
-==========================================
 Report generated successfully.
-==========================================
+======================================
